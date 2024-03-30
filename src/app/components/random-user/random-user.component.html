@@ -1,0 +1,7 @@
+<div *ngIf="randomUser">
+  <h2>Random User</h2>
+  <img [src]="randomUser.imageUrl" [alt]="randomUser.firstName">
+  <p><b>Name:</b> {{ randomUser.firstName }} {{ randomUser.lastName }}</p>
+  <p><b>Email:</b> {{ randomUser.email }}</p>
+  <p><b>Gender:</b> {{ randomUser.gender }}</p>
+</div>
