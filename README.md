@@ -1,6 +1,6 @@
-# RandomUserUi
+# RandomUserFinder-UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1 and it contains the login screen along with displaying random users over the UI. This project is built upon Angular 17 framework.
 
 ## Development server
 
