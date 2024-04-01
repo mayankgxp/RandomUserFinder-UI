@@ -9,7 +9,7 @@ import { AuthService } from '../../services/auth.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  title: string = 'Hello, random-user-ui';
+  title: string = 'Please login to see the Random User';
   loginForm!: FormGroup;
   submitted = false;
   invalidCredentials!: boolean;
