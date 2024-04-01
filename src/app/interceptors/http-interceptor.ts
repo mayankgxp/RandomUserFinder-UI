@@ -14,10 +14,10 @@ export class HttpRequestInterceptor implements HttpInterceptor {
     const password = this.authService.getPassword();
 
     req = req.clone({
-    setHeaders: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Basic ' + btoa(`${userName}:${password}`)
-    }
+      setHeaders: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Basic ' + btoa(`${userName}:${password}`)
+      }
     });
 
     return next.handle(req);

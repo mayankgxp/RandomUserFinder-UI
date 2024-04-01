@@ -36,13 +36,10 @@ export class LoginComponent implements OnInit {
     }
     
     if (await this.authService.authenticate(this.loginForm.value.username, this.loginForm.value.password)) {
-      debugger
       this.invalidCredentials = false;
-      debugger;
       this.router.navigate(['/user']);
     } else {
-      debugger;
-     this.invalidCredentials = true;
+       this.invalidCredentials = true;
     }
   }
 }
